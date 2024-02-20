@@ -1,0 +1,46 @@
+.formPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2691e;
+}
+
+.formHeader {
+    font-size: 30px;
+    color:#ffebcd; 
+}
+
+.form {
+    flex-direction: column;
+}
+
+.inputName, .inputEmail, .inputMessage {
+    background-color: transparent;
+    color:#ffebcd; 
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 1px #ffebcd;
+}
+
+.inputButton {
+    background-color: #d2691e;
+    border-radius: 20px;
+    border: solid 1px #ffebcd;
+    color:#ffebcd; 
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.thankYouPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankYouHeader {
+    font-size: 30px;
+    color:#ffebcd; 
+}
